@@ -104,7 +104,7 @@
             bindings = <
 &kp C_STOP         &kp C_PLAY       &kp F1  &kp F2  &kp F3  &kp F10                    &trans          &kp CAPS        &kp PRINTSCREEN  &kp PAUSE_BREAK  &trans           &trans           &trans
 &kp C_PREV         &kp C_NEXT       &kp F4  &kp F5  &kp F6  &kp F11            &trans  &trans  &trans  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
-&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F7  &kp F8  &kp F9  &kp F12  &trans            &trans          &trans          &trans           &trans           &trans           &trans           &trans
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F7  &kp F8  &kp F9  &kp F12  &trans            &trans          &kp K_MUTE      &trans           &trans           &trans           &trans           &trans
                                             &mo 4   &trans  &trans                                     &trans          &trans           &trans
             >;
 
